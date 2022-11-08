@@ -1,0 +1,61 @@
+@FEATURE_DEMOBLAZE
+Característica: Validar el funcionamiento de los formularios de DemoBlaze
+  Como automatizador web
+  Quiero validar el funcionamiento de los formularios
+  Para lanzarlo a producción
+
+  @ESCENARIO_DEMOBLAZE_02
+  Esquema del escenario: Validar el correcto funcionamiento de la compra exitosa de la pagina DemoBlaze [90m# src/test/resources/web/DemoBlaze.feature:19[0m
+    [36mDado que aperturamos la pagina demoBlaze en el navegador "<Navegador>"[0m
+    [36mCuando seleccionamos "<Categorías>"[0m
+    [36mY luego hacemos click en "<Productos>" para ver su detalle[0m
+    [36mY luego hacemos click en Add to cart[0m
+    [36mY aceptamos el mensaje de alerta[0m
+    [36mY hacemos click en Cart[0m
+    [36mY luego hacemos click en Place Order[0m
+    [36mY escribimos "<Name>" en el cuadro de texto Name[0m
+    [36mY escribimos "<Country>" en el cuadro de texto Country[0m
+    [36mY escribimos "<City>" en el cuadro de texto City[0m
+    [36mY escribimos "<Credit Card>" en el cuadro de texto Credit Card[0m
+    [36mY escribimos "<Month>" en el cuadro de texto Month[0m
+    [36mY escribimos "<Year>" en el cuadro de texto Year[0m
+    [36mY luego hacemos click en purchase[0m
+    [36mEntonces Validamos que se realizado el proceso correctamente[0m
+
+    Ejemplos: 
+
+  @FEATURE_DEMOBLAZE @ESCENARIO_DEMOBLAZE_02
+  Esquema del escenario: Validar el correcto funcionamiento de la compra exitosa de la pagina DemoBlaze [90m# src/test/resources/web/DemoBlaze.feature:38[0m
+    [32mDado [0m[32mque aperturamos la pagina demoBlaze en el navegador "[0m[32m[1mchrome[0m[32m"[0m                                   [90m# DemoBlazeStepDefinition.queAperturamosLaPaginaDemoBlazeEnElNavegador(String)[0m
+    [32mCuando [0m[32mseleccionamos "[0m[32m[1mMonitors[0m[32m"[0m                                                                     [90m# DemoBlazeStepDefinition.seleccionamos(String)[0m
+    [32mY [0m[32mluego hacemos click en "[0m[32m[1mASUS Full HD[0m[32m" para ver su detalle[0m                                         [90m# DemoBlazeStepDefinition.luegoHacemosClickEnParaVerSuDetalle(String)[0m
+    [32mY [0m[32mluego hacemos click en Add to cart[0m                                                                [90m# DemoBlazeStepDefinition.luegoHacemosClickEnAddToCart()[0m
+    [32mY [0m[32maceptamos el mensaje de alerta[0m                                                                    [90m# DemoBlazeStepDefinition.aceptamosElMensajeDeAlerta()[0m
+    [32mY [0m[32mhacemos click en Cart[0m                                                                             [90m# DemoBlazeStepDefinition.hacemosClickEnCart()[0m
+    [32mY [0m[32mluego hacemos click en Place Order[0m                                                                [90m# DemoBlazeStepDefinition.luegoHacemosClickEnPlaceOrder()[0m
+    [32mY [0m[32mescribimos "[0m[32m[1mPaolo Coaquira[0m[32m" en el cuadro de texto Name[0m                                            [90m# DemoBlazeStepDefinition.escribimosEnElCuadroDeTextoName(String)[0m
+    [32mY [0m[32mescribimos "[0m[32m[1mPerú[0m[32m" en el cuadro de texto Country[0m                                                   [90m# DemoBlazeStepDefinition.escribimosEnElCuadroDeTextoCountry(String)[0m
+    [32mY [0m[32mescribimos "[0m[32m[1mTrujillo[0m[32m" en el cuadro de texto City[0m                                                  [90m# DemoBlazeStepDefinition.escribimosEnElCuadroDeTextoCity(String)[0m
+    [32mY [0m[32mescribimos "[0m[32m[1m147852369[0m[32m" en el cuadro de texto Credit Card[0m                                          [90m# DemoBlazeStepDefinition.escribimosEnElCuadroDeTextoCreditCard(String)[0m
+    [32mY [0m[32mescribimos "[0m[32m[1mJunio[0m[32m" en el cuadro de texto Month[0m                                                    [90m# DemoBlazeStepDefinition.escribimosEnElCuadroDeTextoMonth(String)[0m
+    [32mY [0m[32mescribimos "[0m[32m[1m2022[0m[32m" en el cuadro de texto Year[0m                                                      [90m# DemoBlazeStepDefinition.escribimosEnElCuadroDeTextoYear(String)[0m
+    [32mY [0m[32mluego hacemos click en purchase[0m                                                                   [90m# DemoBlazeStepDefinition.luegoHacemosClickEnPurchase()[0m
+    [32mEntonces [0m[32mValidamos que se realizado el proceso correctamente[0m                                        [90m# DemoBlazeStepDefinition.validamosQueSeRealizadoElProcesoCorrectamente()[0m
+
+  @FEATURE_DEMOBLAZE @ESCENARIO_DEMOBLAZE_02
+  Esquema del escenario: Validar el correcto funcionamiento de la compra exitosa de la pagina DemoBlaze [90m# src/test/resources/web/DemoBlaze.feature:39[0m
+    [32mDado [0m[32mque aperturamos la pagina demoBlaze en el navegador "[0m[32m[1mchrome[0m[32m"[0m                                   [90m# DemoBlazeStepDefinition.queAperturamosLaPaginaDemoBlazeEnElNavegador(String)[0m
+    [32mCuando [0m[32mseleccionamos "[0m[32m[1mLaptops[0m[32m"[0m                                                                      [90m# DemoBlazeStepDefinition.seleccionamos(String)[0m
+    [32mY [0m[32mluego hacemos click en "[0m[32m[1mMacBook Pro[0m[32m" para ver su detalle[0m                                          [90m# DemoBlazeStepDefinition.luegoHacemosClickEnParaVerSuDetalle(String)[0m
+    [32mY [0m[32mluego hacemos click en Add to cart[0m                                                                [90m# DemoBlazeStepDefinition.luegoHacemosClickEnAddToCart()[0m
+    [32mY [0m[32maceptamos el mensaje de alerta[0m                                                                    [90m# DemoBlazeStepDefinition.aceptamosElMensajeDeAlerta()[0m
+    [32mY [0m[32mhacemos click en Cart[0m                                                                             [90m# DemoBlazeStepDefinition.hacemosClickEnCart()[0m
+    [32mY [0m[32mluego hacemos click en Place Order[0m                                                                [90m# DemoBlazeStepDefinition.luegoHacemosClickEnPlaceOrder()[0m
+    [32mY [0m[32mescribimos "[0m[32m[1mMauro García[0m[32m" en el cuadro de texto Name[0m                                              [90m# DemoBlazeStepDefinition.escribimosEnElCuadroDeTextoName(String)[0m
+    [32mY [0m[32mescribimos "[0m[32m[1mPerú[0m[32m" en el cuadro de texto Country[0m                                                   [90m# DemoBlazeStepDefinition.escribimosEnElCuadroDeTextoCountry(String)[0m
+    [32mY [0m[32mescribimos "[0m[32m[1mTrujillo[0m[32m" en el cuadro de texto City[0m                                                  [90m# DemoBlazeStepDefinition.escribimosEnElCuadroDeTextoCity(String)[0m
+    [32mY [0m[32mescribimos "[0m[32m[1m159875321[0m[32m" en el cuadro de texto Credit Card[0m                                          [90m# DemoBlazeStepDefinition.escribimosEnElCuadroDeTextoCreditCard(String)[0m
+    [32mY [0m[32mescribimos "[0m[32m[1mMayo[0m[32m" en el cuadro de texto Month[0m                                                     [90m# DemoBlazeStepDefinition.escribimosEnElCuadroDeTextoMonth(String)[0m
+    [32mY [0m[32mescribimos "[0m[32m[1m2022[0m[32m" en el cuadro de texto Year[0m                                                      [90m# DemoBlazeStepDefinition.escribimosEnElCuadroDeTextoYear(String)[0m
+    [32mY [0m[32mluego hacemos click en purchase[0m                                                                   [90m# DemoBlazeStepDefinition.luegoHacemosClickEnPurchase()[0m
+    [32mEntonces [0m[32mValidamos que se realizado el proceso correctamente[0m                                        [90m# DemoBlazeStepDefinition.validamosQueSeRealizadoElProcesoCorrectamente()[0m

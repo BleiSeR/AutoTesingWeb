@@ -1,0 +1,300 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script><!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">Demo Project using Serenity and Cucumber</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="b58b70faae1d626354f8465982412302593193a50364837b595a0a0b3a40189c.html">Validar El Funcionamiento De Los Formularios De Demoblaze</a></span>
+                > <span class="truncate-60"><a
+                    href="c5569eec5b226f4a5c24c3f9014ed52305425dd3a59b356bf33e4ff231b621b4.html">Validar el correcto funcionamiento de la compra exitosa de la pagina DemoBlaze </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 08-11-2022 13:35</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Validar El Funcionamiento De Los Formularios De Demoblaze</span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                Como automatizador web
+Quiero validar el funcionamiento de los formularios
+Para lanzarlo a producción
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="7ee91677b6616bfba42271eca473777feef75b6b599d4e6c5f9c5fce9d098bb5.html">ESCENARIO DEMOBLAZE 02
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="6185577b3d0995b946f69a5c84982a529e1d884d3c1b7a791bfa26603315eb0b.html">FEATURE DEMOBLAZE
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Validar el correcto funcionamiento de la compra exitosa de la pagina DemoBlaze
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">Dado que aperturamos la pagina demoBlaze en el navegador "&lt;Navegador&gt;"<br>Cuando seleccionamos "&lt;Categorías&gt;"<br>Y luego hacemos click en "&lt;Productos&gt;" para ver su detalle<br>Y luego hacemos click en Add to cart<br>Y aceptamos el mensaje de alerta<br>Y hacemos click en Cart<br>Y luego hacemos click en Place Order<br>Y escribimos "&lt;Name&gt;" en el cuadro de texto Name<br>Y escribimos "&lt;Country&gt;" en el cuadro de texto Country<br>Y escribimos "&lt;City&gt;" en el cuadro de texto City<br>Y escribimos "&lt;Credit Card&gt;" en el cuadro de texto Credit Card<br>Y escribimos "&lt;Month&gt;" en el cuadro de texto Month<br>Y escribimos "&lt;Year&gt;" en el cuadro de texto Year<br>Y luego hacemos click en purchase<br>Entonces Validamos que se realizado el proceso correctamente</div>
+    </div>
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="04615b97621d29992a7fda9490dd1b5ae748bc3a1229c7a0f05b70ce3d6486f1.png" title=" Example #1: {Navegador=chrome, Categor&iacute;as=Monitors, Productos=ASUS Full HD, Name=Paolo Coaquira, Country=Per&uacute;, City=Trujillo, Credit Card=147852369, Month=Junio, Year=2022}" width="1920"/>
+                <img src="04615b97621d29992a7fda9490dd1b5ae748bc3a1229c7a0f05b70ce3d6486f1.png" title=" Cuando seleccionamos &quot;Monitors&quot;" width="1920"/>
+                <img src="04615b97621d29992a7fda9490dd1b5ae748bc3a1229c7a0f05b70ce3d6486f1.png" title=" Seleccionamos: Monitors" width="1920"/>
+                <img src="04615b97621d29992a7fda9490dd1b5ae748bc3a1229c7a0f05b70ce3d6486f1.png" title=" Cuando seleccionamos &quot;Monitors&quot; (completed)" width="1920"/>
+                <img src="f615aa984201b4ee2ea50f1b1159fa7c5e5be575468092e5b82cde7bd5699ba9.png" title=" Y luego hacemos click en &quot;ASUS Full HD&quot; para ver su detalle" width="1920"/>
+                <img src="f615aa984201b4ee2ea50f1b1159fa7c5e5be575468092e5b82cde7bd5699ba9.png" title=" Luego hacemos click en para ver su detalle: ASUS Full HD" width="1920"/>
+                <img src="f615aa984201b4ee2ea50f1b1159fa7c5e5be575468092e5b82cde7bd5699ba9.png" title=" Y luego hacemos click en &quot;ASUS Full HD&quot; para ver su detalle (completed)" width="1920"/>
+                <img src="0acdb76e6a6db7dba7f756be4a4a848febfd4d4b3990376c8fcc457fb9032db8.png" title=" Y luego hacemos click en Add to cart" width="1920"/>
+                <img src="0acdb76e6a6db7dba7f756be4a4a848febfd4d4b3990376c8fcc457fb9032db8.png" title=" Luego hacemos click en add to cart" width="1920"/>
+                <img src="0acdb76e6a6db7dba7f756be4a4a848febfd4d4b3990376c8fcc457fb9032db8.png" title=" Y luego hacemos click en Add to cart (completed)" width="1920"/>
+                <img src="0acdb76e6a6db7dba7f756be4a4a848febfd4d4b3990376c8fcc457fb9032db8.png" title=" Y aceptamos el mensaje de alerta" width="1920"/>
+                <img src="0acdb76e6a6db7dba7f756be4a4a848febfd4d4b3990376c8fcc457fb9032db8.png" title=" Aceptamos el mensaje de alerta" width="1920"/>
+                <img src="144b2e94c862569eb3a590bdec1eb9539a67af9975eb9ae5caa614feaa006b30.png" title=" Y hacemos click en Cart" width="1920"/>
+                <img src="144b2e94c862569eb3a590bdec1eb9539a67af9975eb9ae5caa614feaa006b30.png" title=" Hacemos click en cart" width="1920"/>
+                <img src="144b2e94c862569eb3a590bdec1eb9539a67af9975eb9ae5caa614feaa006b30.png" title=" Y hacemos click en Cart (completed)" width="1920"/>
+                <img src="4a2189e3f1b50100591d6e24a9a6e86767a975360a3357c94aaefd1419292d88.png" title=" Y luego hacemos click en Place Order" width="1920"/>
+                <img src="4a2189e3f1b50100591d6e24a9a6e86767a975360a3357c94aaefd1419292d88.png" title=" Luego hacemos click en place order" width="1920"/>
+                <img src="4a2189e3f1b50100591d6e24a9a6e86767a975360a3357c94aaefd1419292d88.png" title=" Y luego hacemos click en Place Order (completed)" width="1920"/>
+                <img src="1f87e20c3b01efccb62df02e8050b930715d549780855d3520bed466f0878c79.png" title=" Y escribimos &quot;Paolo Coaquira&quot; en el cuadro de texto Name" width="1920"/>
+                <img src="1f87e20c3b01efccb62df02e8050b930715d549780855d3520bed466f0878c79.png" title=" Escribimos en el cuadro de texto name: Paolo Coaquira" width="1920"/>
+                <img src="1f87e20c3b01efccb62df02e8050b930715d549780855d3520bed466f0878c79.png" title=" Y escribimos &quot;Paolo Coaquira&quot; en el cuadro de texto Name (completed)" width="1920"/>
+                <img src="3f3a7082e8529f628018758e484de526b0c2f187dcb6259d5bf54a7b31457bea.png" title=" Y escribimos &quot;Per&uacute;&quot; en el cuadro de texto Country" width="1920"/>
+                <img src="3f3a7082e8529f628018758e484de526b0c2f187dcb6259d5bf54a7b31457bea.png" title=" Escribimos en el cuadro de texto country: Per&uacute;" width="1920"/>
+                <img src="3f3a7082e8529f628018758e484de526b0c2f187dcb6259d5bf54a7b31457bea.png" title=" Y escribimos &quot;Per&uacute;&quot; en el cuadro de texto Country (completed)" width="1920"/>
+                <img src="6cb607d5e6bd8fb0e24243e0780525b74bbc18c8d6330291d6e35e9e8aa9a3fa.png" title=" Y escribimos &quot;Trujillo&quot; en el cuadro de texto City" width="1920"/>
+                <img src="6cb607d5e6bd8fb0e24243e0780525b74bbc18c8d6330291d6e35e9e8aa9a3fa.png" title=" Escribimos en el cuadro de texto city: Trujillo" width="1920"/>
+                <img src="27bcf0d167843bf0dd9e72e7f1b7e45cebf954339b79aa493ec9290e4e976faf.png" title=" Y escribimos &quot;147852369&quot; en el cuadro de texto Credit Card" width="1920"/>
+                <img src="27bcf0d167843bf0dd9e72e7f1b7e45cebf954339b79aa493ec9290e4e976faf.png" title=" Escribimos en el cuadro de texto credit card: 147852369" width="1920"/>
+                <img src="27bcf0d167843bf0dd9e72e7f1b7e45cebf954339b79aa493ec9290e4e976faf.png" title=" Y escribimos &quot;147852369&quot; en el cuadro de texto Credit Card (completed)" width="1920"/>
+                <img src="38fe5e7ef0983aa366dda7fab29e6542391475d5527cc113ba0a2dcdef9da815.png" title=" Y escribimos &quot;Junio&quot; en el cuadro de texto Month" width="1920"/>
+                <img src="38fe5e7ef0983aa366dda7fab29e6542391475d5527cc113ba0a2dcdef9da815.png" title=" Escribimos en el cuadro de texto month: Junio" width="1920"/>
+                <img src="38fe5e7ef0983aa366dda7fab29e6542391475d5527cc113ba0a2dcdef9da815.png" title=" Y escribimos &quot;Junio&quot; en el cuadro de texto Month (completed)" width="1920"/>
+                <img src="bcdd51e478f2fd5a5925fff00e8bc5be73c5a7a90f67c445a38c8623d989ef19.png" title=" Y escribimos &quot;2022&quot; en el cuadro de texto Year" width="1920"/>
+                <img src="bcdd51e478f2fd5a5925fff00e8bc5be73c5a7a90f67c445a38c8623d989ef19.png" title=" Escribimos en el cuadro de texto year: 2022" width="1920"/>
+                <img src="bcdd51e478f2fd5a5925fff00e8bc5be73c5a7a90f67c445a38c8623d989ef19.png" title=" Y escribimos &quot;2022&quot; en el cuadro de texto Year (completed)" width="1920"/>
+                <img src="2d45481965ae45e687b8499602b8605acd5b6d32106d4e3ef1935f86c66cdae8.png" title=" Y luego hacemos click en purchase" width="1920"/>
+                <img src="2d45481965ae45e687b8499602b8605acd5b6d32106d4e3ef1935f86c66cdae8.png" title=" Luego hacemos click en purchase" width="1920"/>
+                <img src="2d45481965ae45e687b8499602b8605acd5b6d32106d4e3ef1935f86c66cdae8.png" title=" Y luego hacemos click en purchase (completed)" width="1920"/>
+                <img src="a7ad66efa85b798768a99ad282ed89fb260bd2f34ac7a7b53c2ff9832229ddb2.png" title=" Entonces Validamos que se realizado el proceso correctamente" width="1920"/>
+                <img src="a7ad66efa85b798768a99ad282ed89fb260bd2f34ac7a7b53c2ff9832229ddb2.png" title=" Validamos que se realizado el proceso correctamente" width="1920"/>
+                <img src="a7ad66efa85b798768a99ad282ed89fb260bd2f34ac7a7b53c2ff9832229ddb2.png" title=" Entonces Validamos que se realizado el proceso correctamente (completed)" width="1920"/>
+                <img src="a7ad66efa85b798768a99ad282ed89fb260bd2f34ac7a7b53c2ff9832229ddb2.png" title=" Example #1: {Navegador=chrome, Categor&iacute;as=Monitors, Productos=ASUS Full HD, Name=Paolo Coaquira, Country=Per&uacute;, City=Trujillo, Credit Card=147852369, Month=Junio, Year=2022} (completed)" width="1920"/>
+                <img src="04615b97621d29992a7fda9490dd1b5ae748bc3a1229c7a0f05b70ce3d6486f1.png" title=" Example #2: {Navegador=chrome, Categor&iacute;as=Laptops, Productos=MacBook Pro, Name=Mauro Garc&iacute;a, Country=Per&uacute;, City=Trujillo, Credit Card=159875321, Month=Mayo, Year=2022}" width="1920"/>
+                <img src="04615b97621d29992a7fda9490dd1b5ae748bc3a1229c7a0f05b70ce3d6486f1.png" title=" Cuando seleccionamos &quot;Laptops&quot;" width="1920"/>
+                <img src="04615b97621d29992a7fda9490dd1b5ae748bc3a1229c7a0f05b70ce3d6486f1.png" title=" Seleccionamos: Laptops" width="1920"/>
+                <img src="04615b97621d29992a7fda9490dd1b5ae748bc3a1229c7a0f05b70ce3d6486f1.png" title=" Cuando seleccionamos &quot;Laptops&quot; (completed)" width="1920"/>
+                <img src="f615aa984201b4ee2ea50f1b1159fa7c5e5be575468092e5b82cde7bd5699ba9.png" title=" Y luego hacemos click en &quot;MacBook Pro&quot; para ver su detalle" width="1920"/>
+                <img src="f615aa984201b4ee2ea50f1b1159fa7c5e5be575468092e5b82cde7bd5699ba9.png" title=" Luego hacemos click en para ver su detalle: MacBook Pro" width="1920"/>
+                <img src="f615aa984201b4ee2ea50f1b1159fa7c5e5be575468092e5b82cde7bd5699ba9.png" title=" Y luego hacemos click en &quot;MacBook Pro&quot; para ver su detalle (completed)" width="1920"/>
+                <img src="07e2cd2652ae76a8b40a80edf207b9cbb91083209ea34763610a8d4a611a7fb3.png" title=" Y luego hacemos click en Add to cart" width="1920"/>
+                <img src="07e2cd2652ae76a8b40a80edf207b9cbb91083209ea34763610a8d4a611a7fb3.png" title=" Luego hacemos click en add to cart" width="1920"/>
+                <img src="07e2cd2652ae76a8b40a80edf207b9cbb91083209ea34763610a8d4a611a7fb3.png" title=" Y luego hacemos click en Add to cart (completed)" width="1920"/>
+                <img src="07e2cd2652ae76a8b40a80edf207b9cbb91083209ea34763610a8d4a611a7fb3.png" title=" Y aceptamos el mensaje de alerta" width="1920"/>
+                <img src="07e2cd2652ae76a8b40a80edf207b9cbb91083209ea34763610a8d4a611a7fb3.png" title=" Aceptamos el mensaje de alerta" width="1920"/>
+                <img src="07e2cd2652ae76a8b40a80edf207b9cbb91083209ea34763610a8d4a611a7fb3.png" title=" Y aceptamos el mensaje de alerta (completed)" width="1920"/>
+                <img src="144b2e94c862569eb3a590bdec1eb9539a67af9975eb9ae5caa614feaa006b30.png" title=" Y hacemos click en Cart" width="1920"/>
+                <img src="144b2e94c862569eb3a590bdec1eb9539a67af9975eb9ae5caa614feaa006b30.png" title=" Hacemos click en cart" width="1920"/>
+                <img src="144b2e94c862569eb3a590bdec1eb9539a67af9975eb9ae5caa614feaa006b30.png" title=" Y hacemos click en Cart (completed)" width="1920"/>
+                <img src="348af64955d0d747f0c2531c6d903dc768ddf121543d17c43b6a5f320b910760.png" title=" Y luego hacemos click en Place Order" width="1920"/>
+                <img src="348af64955d0d747f0c2531c6d903dc768ddf121543d17c43b6a5f320b910760.png" title=" Luego hacemos click en place order" width="1920"/>
+                <img src="348af64955d0d747f0c2531c6d903dc768ddf121543d17c43b6a5f320b910760.png" title=" Y luego hacemos click en Place Order (completed)" width="1920"/>
+                <img src="aac2563f8ab2acbcbd700872b1eb00d8a2729fc167da6d612391e5d973f1b13c.png" title=" Y escribimos &quot;Mauro Garc&iacute;a&quot; en el cuadro de texto Name" width="1920"/>
+                <img src="aac2563f8ab2acbcbd700872b1eb00d8a2729fc167da6d612391e5d973f1b13c.png" title=" Escribimos en el cuadro de texto name: Mauro Garc&iacute;a" width="1920"/>
+                <img src="aac2563f8ab2acbcbd700872b1eb00d8a2729fc167da6d612391e5d973f1b13c.png" title=" Y escribimos &quot;Mauro Garc&iacute;a&quot; en el cuadro de texto Name (completed)" width="1920"/>
+                <img src="4d1956a594133efdb274ae72ccabef021793a07ba4d9533883066a89ae84c7c1.png" title=" Y escribimos &quot;Per&uacute;&quot; en el cuadro de texto Country" width="1920"/>
+                <img src="4d1956a594133efdb274ae72ccabef021793a07ba4d9533883066a89ae84c7c1.png" title=" Escribimos en el cuadro de texto country: Per&uacute;" width="1920"/>
+                <img src="4d1956a594133efdb274ae72ccabef021793a07ba4d9533883066a89ae84c7c1.png" title=" Y escribimos &quot;Per&uacute;&quot; en el cuadro de texto Country (completed)" width="1920"/>
+                <img src="ab19f55439bed3e72a930c861bac3d0ea3e01cd07e783162048d35727e440a60.png" title=" Y escribimos &quot;Trujillo&quot; en el cuadro de texto City" width="1920"/>
+                <img src="ab19f55439bed3e72a930c861bac3d0ea3e01cd07e783162048d35727e440a60.png" title=" Escribimos en el cuadro de texto city: Trujillo" width="1920"/>
+                <img src="ab19f55439bed3e72a930c861bac3d0ea3e01cd07e783162048d35727e440a60.png" title=" Y escribimos &quot;Trujillo&quot; en el cuadro de texto City (completed)" width="1920"/>
+                <img src="e07835df8fec8f3438857437d9149d23e76bd4e4de6dfbb43d1f2e2b81c220af.png" title=" Y escribimos &quot;159875321&quot; en el cuadro de texto Credit Card" width="1920"/>
+                <img src="e07835df8fec8f3438857437d9149d23e76bd4e4de6dfbb43d1f2e2b81c220af.png" title=" Escribimos en el cuadro de texto credit card: 159875321" width="1920"/>
+                <img src="e07835df8fec8f3438857437d9149d23e76bd4e4de6dfbb43d1f2e2b81c220af.png" title=" Y escribimos &quot;159875321&quot; en el cuadro de texto Credit Card (completed)" width="1920"/>
+                <img src="ecc28a47b639ae11e536e94792107aa966631d03edff89befbba9f0a76e8d96d.png" title=" Y escribimos &quot;Mayo&quot; en el cuadro de texto Month" width="1920"/>
+                <img src="ecc28a47b639ae11e536e94792107aa966631d03edff89befbba9f0a76e8d96d.png" title=" Escribimos en el cuadro de texto month: Mayo" width="1920"/>
+                <img src="ecc28a47b639ae11e536e94792107aa966631d03edff89befbba9f0a76e8d96d.png" title=" Y escribimos &quot;Mayo&quot; en el cuadro de texto Month (completed)" width="1920"/>
+                <img src="ae5cdde8e5ce5cbb4b6e1c8ab6fa6a2b5d96ba55dcdefc03a4d2fb84709dc6cd.png" title=" Y escribimos &quot;2022&quot; en el cuadro de texto Year" width="1920"/>
+                <img src="ae5cdde8e5ce5cbb4b6e1c8ab6fa6a2b5d96ba55dcdefc03a4d2fb84709dc6cd.png" title=" Escribimos en el cuadro de texto year: 2022" width="1920"/>
+                <img src="46dedc93979bc1440bb79b7e29a9f9b5e6297c6d5d30d77d8dd6bd916fba4614.png" title=" Y luego hacemos click en purchase" width="1920"/>
+                <img src="46dedc93979bc1440bb79b7e29a9f9b5e6297c6d5d30d77d8dd6bd916fba4614.png" title=" Luego hacemos click en purchase" width="1920"/>
+                <img src="773469fa7b156af51e2901a933d52ce4f8390b87afb3f3ac912cb1b4f6bc8bbd.png" title=" Entonces Validamos que se realizado el proceso correctamente" width="1920"/>
+                <img src="773469fa7b156af51e2901a933d52ce4f8390b87afb3f3ac912cb1b4f6bc8bbd.png" title=" Validamos que se realizado el proceso correctamente" width="1920"/>
+                <img src="773469fa7b156af51e2901a933d52ce4f8390b87afb3f3ac912cb1b4f6bc8bbd.png" title=" Example #2: {Navegador=chrome, Categor&iacute;as=Laptops, Productos=MacBook Pro, Name=Mauro Garc&iacute;a, Country=Per&uacute;, City=Trujillo, Credit Card=159875321, Month=Mayo, Year=2022}" width="1920"/>
+                <img src="773469fa7b156af51e2901a933d52ce4f8390b87afb3f3ac912cb1b4f6bc8bbd.png" title=" Entonces Validamos que se realizado el proceso correctamente (completed): <span class='success-color'>SUCCESS</span>" width="1920"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.54</span>
+</div>
+</body>
+</html>

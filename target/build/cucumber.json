@@ -1,0 +1,526 @@
+[
+  {
+    "line": 4,
+    "elements": [
+      {
+        "line": 38,
+        "name": "Validar el correcto funcionamiento de la compra exitosa de la pagina DemoBlaze",
+        "description": "",
+        "id": "validar-el-funcionamiento-de-los-formularios-de-demoblaze;validar-el-correcto-funcionamiento-de-la-compra-exitosa-de-la-pagina-demoblaze;;2",
+        "type": "scenario",
+        "keyword": "Esquema del escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3965051500,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "que aperturamos la pagina demoBlaze en el navegador \"chrome\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "chrome",
+                  "offset": 53
+                }
+              ],
+              "location": "DemoBlazeStepDefinition.queAperturamosLaPaginaDemoBlazeEnElNavegador(String)"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 470211500,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "seleccionamos \"Monitors\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Monitors",
+                  "offset": 15
+                }
+              ],
+              "location": "DemoBlazeStepDefinition.seleccionamos(String)"
+            },
+            "keyword": "Cuando "
+          },
+          {
+            "result": {
+              "duration": 2846593599,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "luego hacemos click en \"ASUS Full HD\" para ver su detalle",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ASUS Full HD",
+                  "offset": 24
+                }
+              ],
+              "location": "DemoBlazeStepDefinition.luegoHacemosClickEnParaVerSuDetalle(String)"
+            },
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "duration": 2279572300,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "luego hacemos click en Add to cart",
+            "match": {
+              "location": "DemoBlazeStepDefinition.luegoHacemosClickEnAddToCart()"
+            },
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "duration": 2237147400,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "aceptamos el mensaje de alerta",
+            "match": {
+              "location": "DemoBlazeStepDefinition.aceptamosElMensajeDeAlerta()"
+            },
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "duration": 3152366900,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "hacemos click en Cart",
+            "match": {
+              "location": "DemoBlazeStepDefinition.hacemosClickEnCart()"
+            },
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "duration": 2247584100,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "luego hacemos click en Place Order",
+            "match": {
+              "location": "DemoBlazeStepDefinition.luegoHacemosClickEnPlaceOrder()"
+            },
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "duration": 2256477000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "escribimos \"Paolo Coaquira\" en el cuadro de texto Name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Paolo Coaquira",
+                  "offset": 12
+                }
+              ],
+              "location": "DemoBlazeStepDefinition.escribimosEnElCuadroDeTextoName(String)"
+            },
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "duration": 248168200,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "escribimos \"Perú\" en el cuadro de texto Country",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Perú",
+                  "offset": 12
+                }
+              ],
+              "location": "DemoBlazeStepDefinition.escribimosEnElCuadroDeTextoCountry(String)"
+            },
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "duration": 219700700,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "escribimos \"Trujillo\" en el cuadro de texto City",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Trujillo",
+                  "offset": 12
+                }
+              ],
+              "location": "DemoBlazeStepDefinition.escribimosEnElCuadroDeTextoCity(String)"
+            },
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "duration": 228326199,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "escribimos \"147852369\" en el cuadro de texto Credit Card",
+            "match": {
+              "arguments": [
+                {
+                  "val": "147852369",
+                  "offset": 12
+                }
+              ],
+              "location": "DemoBlazeStepDefinition.escribimosEnElCuadroDeTextoCreditCard(String)"
+            },
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "duration": 234036999,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "escribimos \"Junio\" en el cuadro de texto Month",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Junio",
+                  "offset": 12
+                }
+              ],
+              "location": "DemoBlazeStepDefinition.escribimosEnElCuadroDeTextoMonth(String)"
+            },
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "duration": 221915599,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "escribimos \"2022\" en el cuadro de texto Year",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2022",
+                  "offset": 12
+                }
+              ],
+              "location": "DemoBlazeStepDefinition.escribimosEnElCuadroDeTextoYear(String)"
+            },
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "duration": 1260256101,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "luego hacemos click en purchase",
+            "match": {
+              "location": "DemoBlazeStepDefinition.luegoHacemosClickEnPurchase()"
+            },
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "duration": 2196458100,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Validamos que se realizado el proceso correctamente",
+            "match": {
+              "location": "DemoBlazeStepDefinition.validamosQueSeRealizadoElProcesoCorrectamente()"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FEATURE_DEMOBLAZE"
+          },
+          {
+            "name": "@ESCENARIO_DEMOBLAZE_02"
+          }
+        ]
+      },
+      {
+        "line": 39,
+        "name": "Validar el correcto funcionamiento de la compra exitosa de la pagina DemoBlaze",
+        "description": "",
+        "id": "validar-el-funcionamiento-de-los-formularios-de-demoblaze;validar-el-correcto-funcionamiento-de-la-compra-exitosa-de-la-pagina-demoblaze;;3",
+        "type": "scenario",
+        "keyword": "Esquema del escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3040960500,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "que aperturamos la pagina demoBlaze en el navegador \"chrome\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "chrome",
+                  "offset": 53
+                }
+              ],
+              "location": "DemoBlazeStepDefinition.queAperturamosLaPaginaDemoBlazeEnElNavegador(String)"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 376947200,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "seleccionamos \"Laptops\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Laptops",
+                  "offset": 15
+                }
+              ],
+              "location": "DemoBlazeStepDefinition.seleccionamos(String)"
+            },
+            "keyword": "Cuando "
+          },
+          {
+            "result": {
+              "duration": 2870349400,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "luego hacemos click en \"MacBook Pro\" para ver su detalle",
+            "match": {
+              "arguments": [
+                {
+                  "val": "MacBook Pro",
+                  "offset": 24
+                }
+              ],
+              "location": "DemoBlazeStepDefinition.luegoHacemosClickEnParaVerSuDetalle(String)"
+            },
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "duration": 2281176900,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "luego hacemos click en Add to cart",
+            "match": {
+              "location": "DemoBlazeStepDefinition.luegoHacemosClickEnAddToCart()"
+            },
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "duration": 2299614199,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "aceptamos el mensaje de alerta",
+            "match": {
+              "location": "DemoBlazeStepDefinition.aceptamosElMensajeDeAlerta()"
+            },
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "duration": 3174926599,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "hacemos click en Cart",
+            "match": {
+              "location": "DemoBlazeStepDefinition.hacemosClickEnCart()"
+            },
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "duration": 2261969400,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "luego hacemos click en Place Order",
+            "match": {
+              "location": "DemoBlazeStepDefinition.luegoHacemosClickEnPlaceOrder()"
+            },
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "duration": 2248847400,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "escribimos \"Mauro García\" en el cuadro de texto Name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mauro García",
+                  "offset": 12
+                }
+              ],
+              "location": "DemoBlazeStepDefinition.escribimosEnElCuadroDeTextoName(String)"
+            },
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "duration": 243600400,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "escribimos \"Perú\" en el cuadro de texto Country",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Perú",
+                  "offset": 12
+                }
+              ],
+              "location": "DemoBlazeStepDefinition.escribimosEnElCuadroDeTextoCountry(String)"
+            },
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "duration": 238476300,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "escribimos \"Trujillo\" en el cuadro de texto City",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Trujillo",
+                  "offset": 12
+                }
+              ],
+              "location": "DemoBlazeStepDefinition.escribimosEnElCuadroDeTextoCity(String)"
+            },
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "duration": 233214799,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "escribimos \"159875321\" en el cuadro de texto Credit Card",
+            "match": {
+              "arguments": [
+                {
+                  "val": "159875321",
+                  "offset": 12
+                }
+              ],
+              "location": "DemoBlazeStepDefinition.escribimosEnElCuadroDeTextoCreditCard(String)"
+            },
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "duration": 231557300,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "escribimos \"Mayo\" en el cuadro de texto Month",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mayo",
+                  "offset": 12
+                }
+              ],
+              "location": "DemoBlazeStepDefinition.escribimosEnElCuadroDeTextoMonth(String)"
+            },
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "duration": 244266500,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "escribimos \"2022\" en el cuadro de texto Year",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2022",
+                  "offset": 12
+                }
+              ],
+              "location": "DemoBlazeStepDefinition.escribimosEnElCuadroDeTextoYear(String)"
+            },
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "duration": 1238890700,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "luego hacemos click en purchase",
+            "match": {
+              "location": "DemoBlazeStepDefinition.luegoHacemosClickEnPurchase()"
+            },
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "duration": 2193577601,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Validamos que se realizado el proceso correctamente",
+            "match": {
+              "location": "DemoBlazeStepDefinition.validamosQueSeRealizadoElProcesoCorrectamente()"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FEATURE_DEMOBLAZE"
+          },
+          {
+            "name": "@ESCENARIO_DEMOBLAZE_02"
+          }
+        ]
+      }
+    ],
+    "name": "Validar el funcionamiento de los formularios de DemoBlaze",
+    "description": "  Como automatizador web\n  Quiero validar el funcionamiento de los formularios\n  Para lanzarlo a producción",
+    "id": "validar-el-funcionamiento-de-los-formularios-de-demoblaze",
+    "keyword": "Característica",
+    "uri": "src/test/resources/web/DemoBlaze.feature",
+    "tags": [
+      {
+        "name": "@FEATURE_DEMOBLAZE",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

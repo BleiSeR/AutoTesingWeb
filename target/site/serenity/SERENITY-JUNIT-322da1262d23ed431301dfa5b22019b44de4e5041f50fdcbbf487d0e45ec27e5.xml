@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Validar el funcionamiento de los formularios de DemoBlaze" skipped="0" tests="1" time="5.25" timestamp="2022-07-04 11:02:57"><testcase name="Validar el funcionamiento del registro exitoso de un usuario de la página DemoBLAZE"><failure message="No se ha registrado correctamente o el usuario ya existe, por favor escribir un usuario diferente" type="java.lang.AssertionError">No se ha registrado correctamente o el usuario ya existe, por favor escribir un usuario diferente</failure><system-err>No se ha registrado correctamente o el usuario ya existe, por favor escribir un usuario diferente&#13;
+com.bdd.page.DemoBlazePage.validamosQueElUsuarioSeHayaRegistradoExitosamente(DemoBlazePage.java:104)&#13;
+com.bdd.step.DemoBlazeStep.validamosQueElUsuarioSeHayaRegistradoExitosamente(DemoBlazeStep.java:33)&#13;
+com.bdd.stepdefinition.DemoBlazeStepDefinition.validamosQueElUsuarioSeHayaRegistradoExitosamente(DemoBlazeStepDefinition.java:43)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+</system-err></testcase></testsuite>

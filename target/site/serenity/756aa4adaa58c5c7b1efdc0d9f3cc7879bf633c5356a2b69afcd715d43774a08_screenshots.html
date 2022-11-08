@@ -1,0 +1,330 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script><!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">Demo Project using Serenity and Cucumber</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="a50e1dd7ba86fba4d52a2284dd22b613e32e2c8e915157feb3e806bea2e86dde.html">Validar El Funcionamiento De Los Formularios De Sistemafixed</a></span>
+                > <span class="truncate-60"><a
+                    href="756aa4adaa58c5c7b1efdc0d9f3cc7879bf633c5356a2b69afcd715d43774a08.html">Validar el correcto funcionamiento de la creaci&oacute;n de cliente de la pagina SistemaFixed </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 04-07-2022 15:12</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Validar El Funcionamiento De Los Formularios De Sistemafixed</span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                Como automatizador web
+Quiero validar el funcionamiento de los formularios
+Para lanzarlo a producción
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="a69fdbac60799aa6bb9fe63d08a96b97d11fad80a7d8e86ebf01bb4d0216ba71.html">FEATURE SISTEMAFIXED
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="8dd3b986996ff9260abd9585d82f8f6b498c4ee46ac367f0525dbd86ec578fee.html">ESCENARIO SISTEMAFIXED 01
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Validar el correcto funcionamiento de la creaci&oacute;n de cliente de la pagina SistemaFixed
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">Dado que aperturamos la pagina SistemaFixed en el navegador "&lt;Navegador&gt;"<br>Cuando le hacemos click a Desplegar Panel<br>Y luego hacemos click en Clientes<br>Y luego hacemos click en el submenu ver mis clientes<br>Y luego hacemos click en Agregar Cliente<br>Y seleccionamos "&lt;Tipo de documento&gt;" en el combo Tipo de documento<br>Y escribimos "&lt;Documento&gt;" en el cuadro de texto Número de documento<br>Y seleccionamos "&lt;Pais&gt;" en el combo Pais<br>Y escribimos "&lt;Razon social&gt;" en el cuadro de texto Razon social<br>Y escribimos "&lt;Nombre&gt;" en el cuadro de texto Nombre<br>Y escribimos "&lt;Direccion&gt;" en el cuadro de texto Direccion<br>Y escribimos "&lt;Localidad&gt;" en el cuadro de texto Localidad<br>Y escribimos "&lt;Departamento&gt;" en el cuadro de texto Departamento<br>Y escribimos "&lt;Domicilio de entrega&gt;" en el cuadro de texto Domicilio de entrega<br>Y escribimos "&lt;Descuento&gt;" en el cuadro de texto Descuento<br>Y escribimos "&lt;Mail factura&gt;" en el cuadro de texto Mail envio factura<br>Y luego seleccionamos "&lt;Proveedor&gt;" en el checkbox Proveedor<br>Y luego seleccionamos "&lt;Cliente&gt;" en el checkbox Cliente<br>Y luego hacemos click en Agregar<br>Entonces Validamos que se ha realizado el proceso correctamente</div>
+    </div>
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="85059adfcb1239cac66be2ea190e5660e4b7dbb3541ce9aa4995f5b3659bcae7.png" title=" Example #1: {Navegador=chrome, Tipo de documento=Otros, Documento=12345678, Pais=Per&uacute;, Razon social=Trabajo, Nombre=Paolo, Direccion=Salaverry, Localidad=Trujillo, Departamento=La Libertad, Domicilio de entrega=Salaverry 124, Descuento=35, Mail factura=pao_lo@nttdata.com, Proveedor=SI, Cliente=NO}" width="1920"/>
+                <img src="85059adfcb1239cac66be2ea190e5660e4b7dbb3541ce9aa4995f5b3659bcae7.png" title=" Cuando le hacemos click a Desplegar Panel" width="1920"/>
+                <img src="85059adfcb1239cac66be2ea190e5660e4b7dbb3541ce9aa4995f5b3659bcae7.png" title=" Le hacemos click a desplegar panel" width="1920"/>
+                <img src="85059adfcb1239cac66be2ea190e5660e4b7dbb3541ce9aa4995f5b3659bcae7.png" title=" Cuando le hacemos click a Desplegar Panel (completed)" width="1920"/>
+                <img src="780a0613c5f5bb7e79f1f3146adb3c87d9e4b98bb078c0ab342a41911f428b9e.png" title=" Y luego hacemos click en Clientes" width="1920"/>
+                <img src="780a0613c5f5bb7e79f1f3146adb3c87d9e4b98bb078c0ab342a41911f428b9e.png" title=" Luego hacemos click en clientes" width="1920"/>
+                <img src="780a0613c5f5bb7e79f1f3146adb3c87d9e4b98bb078c0ab342a41911f428b9e.png" title=" Y luego hacemos click en Clientes (completed)" width="1920"/>
+                <img src="00133e6489a13fbab846dadaf3f96cc9a781693c867c6cb4c551696c0af169f0.png" title=" Y luego hacemos click en el submenu ver mis clientes" width="1920"/>
+                <img src="00133e6489a13fbab846dadaf3f96cc9a781693c867c6cb4c551696c0af169f0.png" title=" Luego hacemos click en el submenu ver mis clientes" width="1920"/>
+                <img src="00133e6489a13fbab846dadaf3f96cc9a781693c867c6cb4c551696c0af169f0.png" title=" Y luego hacemos click en el submenu ver mis clientes (completed)" width="1920"/>
+                <img src="2ba468430cdb77fcf226d66c212165cb1ea887802aabec3ffa29bf6a35ae5eab.png" title=" Y luego hacemos click en Agregar Cliente" width="1920"/>
+                <img src="2ba468430cdb77fcf226d66c212165cb1ea887802aabec3ffa29bf6a35ae5eab.png" title=" Luego hacemos click en agregar cliente" width="1920"/>
+                <img src="2ba468430cdb77fcf226d66c212165cb1ea887802aabec3ffa29bf6a35ae5eab.png" title=" Y luego hacemos click en Agregar Cliente (completed)" width="1920"/>
+                <img src="8d5e2513a825146e02d2545df2857a50ba7902d10b52c1e715ca6f91ba1afdf8.png" title=" Y seleccionamos &quot;Otros&quot; en el combo Tipo de documento" width="1920"/>
+                <img src="8d5e2513a825146e02d2545df2857a50ba7902d10b52c1e715ca6f91ba1afdf8.png" title=" Seleccionamos en el combo tipo de documento: Otros" width="1920"/>
+                <img src="8d5e2513a825146e02d2545df2857a50ba7902d10b52c1e715ca6f91ba1afdf8.png" title=" Y seleccionamos &quot;Otros&quot; en el combo Tipo de documento (completed)" width="1920"/>
+                <img src="07d3944ffece4f2fe9ec7b1844dea3eeb9d6f26a2cf5a167ab3699c05ac65cdf.png" title=" Y escribimos &quot;12345678&quot; en el cuadro de texto N&uacute;mero de documento" width="1920"/>
+                <img src="07d3944ffece4f2fe9ec7b1844dea3eeb9d6f26a2cf5a167ab3699c05ac65cdf.png" title=" Escribimos en el cuadro de texto n&uacute;mero de documento: 12345678" width="1920"/>
+                <img src="07d3944ffece4f2fe9ec7b1844dea3eeb9d6f26a2cf5a167ab3699c05ac65cdf.png" title=" Y escribimos &quot;12345678&quot; en el cuadro de texto N&uacute;mero de documento (completed)" width="1920"/>
+                <img src="c37eaede0f280e509d311f8fa7ef998968faa566e6f302c857a1f9e31e967bf6.png" title=" Y seleccionamos &quot;Per&uacute;&quot; en el combo Pais" width="1920"/>
+                <img src="c37eaede0f280e509d311f8fa7ef998968faa566e6f302c857a1f9e31e967bf6.png" title=" Seleccionamos en el combo pais: Per&uacute;" width="1920"/>
+                <img src="c37eaede0f280e509d311f8fa7ef998968faa566e6f302c857a1f9e31e967bf6.png" title=" Y seleccionamos &quot;Per&uacute;&quot; en el combo Pais (completed)" width="1920"/>
+                <img src="83aa938e61d860da8d13dfd13bd5dd4d0c6ac315275e7f4614b47793c2565403.png" title=" Y escribimos &quot;Trabajo&quot; en el cuadro de texto Razon social" width="1920"/>
+                <img src="83aa938e61d860da8d13dfd13bd5dd4d0c6ac315275e7f4614b47793c2565403.png" title=" Escribimos en el cuadro de texto razon social: Trabajo" width="1920"/>
+                <img src="83aa938e61d860da8d13dfd13bd5dd4d0c6ac315275e7f4614b47793c2565403.png" title=" Y escribimos &quot;Trabajo&quot; en el cuadro de texto Razon social (completed)" width="1920"/>
+                <img src="b19542cfef411710b1c0c9509d96fc43db4ac1d90902b5196b79544308b7d158.png" title=" Y escribimos &quot;Paolo&quot; en el cuadro de texto Nombre" width="1920"/>
+                <img src="b19542cfef411710b1c0c9509d96fc43db4ac1d90902b5196b79544308b7d158.png" title=" Escribimos en el cuadro de texto nombre: Paolo" width="1920"/>
+                <img src="b19542cfef411710b1c0c9509d96fc43db4ac1d90902b5196b79544308b7d158.png" title=" Y escribimos &quot;Paolo&quot; en el cuadro de texto Nombre (completed)" width="1920"/>
+                <img src="2c34b619bf4d45a482d473681859e4d091640aaeaeda607f1489cd2b9dd8491c.png" title=" Y escribimos &quot;Salaverry&quot; en el cuadro de texto Direccion" width="1920"/>
+                <img src="2c34b619bf4d45a482d473681859e4d091640aaeaeda607f1489cd2b9dd8491c.png" title=" Escribimos en el cuadro de texto direccion: Salaverry" width="1920"/>
+                <img src="2c34b619bf4d45a482d473681859e4d091640aaeaeda607f1489cd2b9dd8491c.png" title=" Y escribimos &quot;Salaverry&quot; en el cuadro de texto Direccion (completed)" width="1920"/>
+                <img src="475f7fab80707502f95e52f32b92ebaef9b2a8744c0e2bb9b10d95986dc9621c.png" title=" Y escribimos &quot;Trujillo&quot; en el cuadro de texto Localidad" width="1920"/>
+                <img src="475f7fab80707502f95e52f32b92ebaef9b2a8744c0e2bb9b10d95986dc9621c.png" title=" Escribimos en el cuadro de texto localidad: Trujillo" width="1920"/>
+                <img src="475f7fab80707502f95e52f32b92ebaef9b2a8744c0e2bb9b10d95986dc9621c.png" title=" Y escribimos &quot;Trujillo&quot; en el cuadro de texto Localidad (completed)" width="1920"/>
+                <img src="35db407b1956b9b07cc95e7e04714f251954ee69b916a8c0461a5ec524bcaf3d.png" title=" Y escribimos &quot;La Libertad&quot; en el cuadro de texto Departamento" width="1920"/>
+                <img src="35db407b1956b9b07cc95e7e04714f251954ee69b916a8c0461a5ec524bcaf3d.png" title=" Escribimos en el cuadro de texto departamento: La Libertad" width="1920"/>
+                <img src="35db407b1956b9b07cc95e7e04714f251954ee69b916a8c0461a5ec524bcaf3d.png" title=" Y escribimos &quot;La Libertad&quot; en el cuadro de texto Departamento (completed)" width="1920"/>
+                <img src="cf009ce0a45531e1c72830e2c72079c1644b8b3a8222ea6eea8a1e5f65acdc18.png" title=" Y escribimos &quot;Salaverry 124&quot; en el cuadro de texto Domicilio de entrega" width="1920"/>
+                <img src="cf009ce0a45531e1c72830e2c72079c1644b8b3a8222ea6eea8a1e5f65acdc18.png" title=" Escribimos en el cuadro de texto domicilio de entrega: Salaverry 124" width="1920"/>
+                <img src="cf009ce0a45531e1c72830e2c72079c1644b8b3a8222ea6eea8a1e5f65acdc18.png" title=" Y escribimos &quot;Salaverry 124&quot; en el cuadro de texto Domicilio de entrega (completed)" width="1920"/>
+                <img src="e58f8dfbd6bb6ac078f862473b8aafaa0dc1308f2f540c93014f9624b55a13e7.png" title=" Y escribimos &quot;35&quot; en el cuadro de texto Descuento" width="1920"/>
+                <img src="e58f8dfbd6bb6ac078f862473b8aafaa0dc1308f2f540c93014f9624b55a13e7.png" title=" Escribimos en el cuadro de texto descuento: 35" width="1920"/>
+                <img src="e58f8dfbd6bb6ac078f862473b8aafaa0dc1308f2f540c93014f9624b55a13e7.png" title=" Y escribimos &quot;35&quot; en el cuadro de texto Descuento (completed)" width="1920"/>
+                <img src="7be83ab2b386db066f72f410967f4d6b7f07041306268699b6f5e45098ecfc07.png" title=" Y escribimos &quot;pao_lo@nttdata.com&quot; en el cuadro de texto Mail envio factura" width="1920"/>
+                <img src="7be83ab2b386db066f72f410967f4d6b7f07041306268699b6f5e45098ecfc07.png" title=" Escribimos en el cuadro de texto mail envio factura: pao_lo@nttdata.com" width="1920"/>
+                <img src="7be83ab2b386db066f72f410967f4d6b7f07041306268699b6f5e45098ecfc07.png" title=" Y escribimos &quot;pao_lo@nttdata.com&quot; en el cuadro de texto Mail envio factura (completed)" width="1920"/>
+                <img src="7be83ab2b386db066f72f410967f4d6b7f07041306268699b6f5e45098ecfc07.png" title=" Y luego seleccionamos &quot;SI&quot; en el checkbox Proveedor" width="1920"/>
+                <img src="7be83ab2b386db066f72f410967f4d6b7f07041306268699b6f5e45098ecfc07.png" title=" Luego seleccionamos en el checkbox proveedor: SI" width="1920"/>
+                <img src="7be83ab2b386db066f72f410967f4d6b7f07041306268699b6f5e45098ecfc07.png" title=" Y luego seleccionamos &quot;SI&quot; en el checkbox Proveedor (completed)" width="1920"/>
+                <img src="56fec53d17a97e98d362df6500e603609e3ca2126ad9c60b3ed05470696c0474.png" title=" Y luego seleccionamos &quot;NO&quot; en el checkbox Cliente" width="1920"/>
+                <img src="56fec53d17a97e98d362df6500e603609e3ca2126ad9c60b3ed05470696c0474.png" title=" Luego seleccionamos en el checkbox cliente: NO" width="1920"/>
+                <img src="56fec53d17a97e98d362df6500e603609e3ca2126ad9c60b3ed05470696c0474.png" title=" Y luego seleccionamos &quot;NO&quot; en el checkbox Cliente (completed)" width="1920"/>
+                <img src="a2253f36cb8ca5b7cdd9b4a7caf08d980cf52c4b20053fd918bb77c08432ee3e.png" title=" Y luego hacemos click en Agregar" width="1920"/>
+                <img src="a2253f36cb8ca5b7cdd9b4a7caf08d980cf52c4b20053fd918bb77c08432ee3e.png" title=" Luego hacemos click en agregar" width="1920"/>
+                <img src="a2253f36cb8ca5b7cdd9b4a7caf08d980cf52c4b20053fd918bb77c08432ee3e.png" title=" Y luego hacemos click en Agregar (completed)" width="1920"/>
+                <img src="9bf25cbc4db088c3db1dac6442b6d89881eddfde97c93b2487aa511a7e10ccee.png" title=" Entonces Validamos que se ha realizado el proceso correctamente" width="1920"/>
+                <img src="9bf25cbc4db088c3db1dac6442b6d89881eddfde97c93b2487aa511a7e10ccee.png" title=" Validamos que se ha realizado el proceso correctamente" width="1920"/>
+                <img src="9bf25cbc4db088c3db1dac6442b6d89881eddfde97c93b2487aa511a7e10ccee.png" title=" Entonces Validamos que se ha realizado el proceso correctamente (completed)" width="1920"/>
+                <img src="9bf25cbc4db088c3db1dac6442b6d89881eddfde97c93b2487aa511a7e10ccee.png" title=" Example #1: {Navegador=chrome, Tipo de documento=Otros, Documento=12345678, Pais=Per&uacute;, Razon social=Trabajo, Nombre=Paolo, Direccion=Salaverry, Localidad=Trujillo, Departamento=La Libertad, Domicilio de entrega=Salaverry 124, Descuento=35, Mail factura=pao_lo@nttdata.com, Proveedor=SI, Cliente=NO} (completed)" width="1920"/>
+                <img src="288f70898c9a6ec14d6321e713e8066ee0c4c3ff23643f1341e0f43a43a134d5.png" title=" Example #2: {Navegador=chrome, Tipo de documento=Otros, Documento=87654321, Pais=Chile, Razon social=Visita, Nombre=Mauro, Direccion=Molino, Localidad=Trujillo, Departamento=La Libertad, Domicilio de entrega=Molino 124, Descuento=50, Mail factura=mau_ro@nttdata.com, Proveedor=NO, Cliente=SI}" width="1920"/>
+                <img src="288f70898c9a6ec14d6321e713e8066ee0c4c3ff23643f1341e0f43a43a134d5.png" title=" Cuando le hacemos click a Desplegar Panel" width="1920"/>
+                <img src="288f70898c9a6ec14d6321e713e8066ee0c4c3ff23643f1341e0f43a43a134d5.png" title=" Le hacemos click a desplegar panel" width="1920"/>
+                <img src="288f70898c9a6ec14d6321e713e8066ee0c4c3ff23643f1341e0f43a43a134d5.png" title=" Cuando le hacemos click a Desplegar Panel (completed)" width="1920"/>
+                <img src="c986dcb68b9f93e6eee4873e1ee3f64704594f5954380649afa4c366d816f11b.png" title=" Y luego hacemos click en Clientes" width="1920"/>
+                <img src="c986dcb68b9f93e6eee4873e1ee3f64704594f5954380649afa4c366d816f11b.png" title=" Luego hacemos click en clientes" width="1920"/>
+                <img src="c986dcb68b9f93e6eee4873e1ee3f64704594f5954380649afa4c366d816f11b.png" title=" Y luego hacemos click en Clientes (completed)" width="1920"/>
+                <img src="c27527f219a8b6489037f4787b2ae561138001c2348eaec4c5a62ac9939c2750.png" title=" Y luego hacemos click en el submenu ver mis clientes" width="1920"/>
+                <img src="c27527f219a8b6489037f4787b2ae561138001c2348eaec4c5a62ac9939c2750.png" title=" Luego hacemos click en el submenu ver mis clientes" width="1920"/>
+                <img src="721c8136b4870a9e7a35206db8f238be012fb5c9bbee6edff4457e98b151dabc.png" title=" Y luego hacemos click en Agregar Cliente" width="1920"/>
+                <img src="721c8136b4870a9e7a35206db8f238be012fb5c9bbee6edff4457e98b151dabc.png" title=" Luego hacemos click en agregar cliente" width="1920"/>
+                <img src="721c8136b4870a9e7a35206db8f238be012fb5c9bbee6edff4457e98b151dabc.png" title=" Y luego hacemos click en Agregar Cliente (completed)" width="1920"/>
+                <img src="f3a4ec2f7220da1319cbf696c29c911b7b499e1c249ec5027d077f95ae376074.png" title=" Y seleccionamos &quot;Otros&quot; en el combo Tipo de documento" width="1920"/>
+                <img src="f3a4ec2f7220da1319cbf696c29c911b7b499e1c249ec5027d077f95ae376074.png" title=" Seleccionamos en el combo tipo de documento: Otros" width="1920"/>
+                <img src="f3a4ec2f7220da1319cbf696c29c911b7b499e1c249ec5027d077f95ae376074.png" title=" Y seleccionamos &quot;Otros&quot; en el combo Tipo de documento (completed)" width="1920"/>
+                <img src="dd77049c9fd936e8bb2502f0534d8f32647fd1e0fd5391949c6ab9e4660b96ae.png" title=" Y escribimos &quot;87654321&quot; en el cuadro de texto N&uacute;mero de documento" width="1920"/>
+                <img src="dd77049c9fd936e8bb2502f0534d8f32647fd1e0fd5391949c6ab9e4660b96ae.png" title=" Escribimos en el cuadro de texto n&uacute;mero de documento: 87654321" width="1920"/>
+                <img src="dd77049c9fd936e8bb2502f0534d8f32647fd1e0fd5391949c6ab9e4660b96ae.png" title=" Y escribimos &quot;87654321&quot; en el cuadro de texto N&uacute;mero de documento (completed)" width="1920"/>
+                <img src="89cea1c84821b7c0811baba99119fdd07ec882b15c8f8f898bd5898dbc4ff983.png" title=" Y seleccionamos &quot;Chile&quot; en el combo Pais" width="1920"/>
+                <img src="89cea1c84821b7c0811baba99119fdd07ec882b15c8f8f898bd5898dbc4ff983.png" title=" Seleccionamos en el combo pais: Chile" width="1920"/>
+                <img src="89cea1c84821b7c0811baba99119fdd07ec882b15c8f8f898bd5898dbc4ff983.png" title=" Y seleccionamos &quot;Chile&quot; en el combo Pais (completed)" width="1920"/>
+                <img src="a7bbd3d97223d55ba61ad23915a2e64da9a527b2b194396a6a64db5a9e906615.png" title=" Y escribimos &quot;Visita&quot; en el cuadro de texto Razon social" width="1920"/>
+                <img src="a7bbd3d97223d55ba61ad23915a2e64da9a527b2b194396a6a64db5a9e906615.png" title=" Escribimos en el cuadro de texto razon social: Visita" width="1920"/>
+                <img src="a7bbd3d97223d55ba61ad23915a2e64da9a527b2b194396a6a64db5a9e906615.png" title=" Y escribimos &quot;Visita&quot; en el cuadro de texto Razon social (completed)" width="1920"/>
+                <img src="03aaa1bfe43dba97b985ae973121e24a86431a65f2dd00bcf8b38cf21110e66e.png" title=" Y escribimos &quot;Mauro&quot; en el cuadro de texto Nombre" width="1920"/>
+                <img src="03aaa1bfe43dba97b985ae973121e24a86431a65f2dd00bcf8b38cf21110e66e.png" title=" Escribimos en el cuadro de texto nombre: Mauro" width="1920"/>
+                <img src="e760e47942daaa7b335d96608177333ae7ca0095b4dddafcba9254ef3c7c4adc.png" title=" Y escribimos &quot;Molino&quot; en el cuadro de texto Direccion" width="1920"/>
+                <img src="e760e47942daaa7b335d96608177333ae7ca0095b4dddafcba9254ef3c7c4adc.png" title=" Escribimos en el cuadro de texto direccion: Molino" width="1920"/>
+                <img src="e760e47942daaa7b335d96608177333ae7ca0095b4dddafcba9254ef3c7c4adc.png" title=" Y escribimos &quot;Molino&quot; en el cuadro de texto Direccion (completed)" width="1920"/>
+                <img src="de8e95f80c962540128d6232277c9fa22ee6cea22177a6746f46c5b4be29a60e.png" title=" Y escribimos &quot;Trujillo&quot; en el cuadro de texto Localidad" width="1920"/>
+                <img src="de8e95f80c962540128d6232277c9fa22ee6cea22177a6746f46c5b4be29a60e.png" title=" Escribimos en el cuadro de texto localidad: Trujillo" width="1920"/>
+                <img src="de8e95f80c962540128d6232277c9fa22ee6cea22177a6746f46c5b4be29a60e.png" title=" Y escribimos &quot;Trujillo&quot; en el cuadro de texto Localidad (completed)" width="1920"/>
+                <img src="c5d7413030f56a7fc10de3143d8ff56ea12d2062cb6464ba01decdb899c30c01.png" title=" Y escribimos &quot;La Libertad&quot; en el cuadro de texto Departamento" width="1920"/>
+                <img src="c5d7413030f56a7fc10de3143d8ff56ea12d2062cb6464ba01decdb899c30c01.png" title=" Escribimos en el cuadro de texto departamento: La Libertad" width="1920"/>
+                <img src="c5d7413030f56a7fc10de3143d8ff56ea12d2062cb6464ba01decdb899c30c01.png" title=" Y escribimos &quot;La Libertad&quot; en el cuadro de texto Departamento (completed)" width="1920"/>
+                <img src="7a2a0c2e04a48be216ffbba15f3e9a0be8714b4166cae947b3bc9e860162c243.png" title=" Y escribimos &quot;Molino 124&quot; en el cuadro de texto Domicilio de entrega" width="1920"/>
+                <img src="7a2a0c2e04a48be216ffbba15f3e9a0be8714b4166cae947b3bc9e860162c243.png" title=" Escribimos en el cuadro de texto domicilio de entrega: Molino 124" width="1920"/>
+                <img src="7a2a0c2e04a48be216ffbba15f3e9a0be8714b4166cae947b3bc9e860162c243.png" title=" Y escribimos &quot;Molino 124&quot; en el cuadro de texto Domicilio de entrega (completed)" width="1920"/>
+                <img src="e6910ce8862c86bc2d82ed19fad3c77a335bf1117cfa8f9f5caf48647db7b54c.png" title=" Y escribimos &quot;50&quot; en el cuadro de texto Descuento" width="1920"/>
+                <img src="e6910ce8862c86bc2d82ed19fad3c77a335bf1117cfa8f9f5caf48647db7b54c.png" title=" Escribimos en el cuadro de texto descuento: 50" width="1920"/>
+                <img src="e6910ce8862c86bc2d82ed19fad3c77a335bf1117cfa8f9f5caf48647db7b54c.png" title=" Y escribimos &quot;50&quot; en el cuadro de texto Descuento (completed)" width="1920"/>
+                <img src="f1b252f4ff9108686cff8aef4d4a3d9d32dd4abbb03bebf0038bfb44efe5cb6f.png" title=" Y escribimos &quot;mau_ro@nttdata.com&quot; en el cuadro de texto Mail envio factura" width="1920"/>
+                <img src="f1b252f4ff9108686cff8aef4d4a3d9d32dd4abbb03bebf0038bfb44efe5cb6f.png" title=" Escribimos en el cuadro de texto mail envio factura: mau_ro@nttdata.com" width="1920"/>
+                <img src="f1b252f4ff9108686cff8aef4d4a3d9d32dd4abbb03bebf0038bfb44efe5cb6f.png" title=" Y escribimos &quot;mau_ro@nttdata.com&quot; en el cuadro de texto Mail envio factura (completed)" width="1920"/>
+                <img src="f1b252f4ff9108686cff8aef4d4a3d9d32dd4abbb03bebf0038bfb44efe5cb6f.png" title=" Y luego seleccionamos &quot;NO&quot; en el checkbox Proveedor" width="1920"/>
+                <img src="f1b252f4ff9108686cff8aef4d4a3d9d32dd4abbb03bebf0038bfb44efe5cb6f.png" title=" Luego seleccionamos en el checkbox proveedor: NO" width="1920"/>
+                <img src="f1b252f4ff9108686cff8aef4d4a3d9d32dd4abbb03bebf0038bfb44efe5cb6f.png" title=" Y luego seleccionamos &quot;SI&quot; en el checkbox Cliente" width="1920"/>
+                <img src="f1b252f4ff9108686cff8aef4d4a3d9d32dd4abbb03bebf0038bfb44efe5cb6f.png" title=" Luego seleccionamos en el checkbox cliente: SI" width="1920"/>
+                <img src="f1b252f4ff9108686cff8aef4d4a3d9d32dd4abbb03bebf0038bfb44efe5cb6f.png" title=" Y luego seleccionamos &quot;SI&quot; en el checkbox Cliente (completed)" width="1920"/>
+                <img src="3c71774500679af42b7501935be15a9d49a17cb79752f8e945a8feceabc77212.png" title=" Y luego hacemos click en Agregar" width="1920"/>
+                <img src="3c71774500679af42b7501935be15a9d49a17cb79752f8e945a8feceabc77212.png" title=" Luego hacemos click en agregar" width="1920"/>
+                <img src="24db3f1029bb5a0fa8cd0768a6aed9964d99e5d538023f7e0110842c33d8fdc6.png" title=" Entonces Validamos que se ha realizado el proceso correctamente" width="1920"/>
+                <img src="24db3f1029bb5a0fa8cd0768a6aed9964d99e5d538023f7e0110842c33d8fdc6.png" title=" Validamos que se ha realizado el proceso correctamente" width="1920"/>
+                <img src="24db3f1029bb5a0fa8cd0768a6aed9964d99e5d538023f7e0110842c33d8fdc6.png" title=" Example #2: {Navegador=chrome, Tipo de documento=Otros, Documento=87654321, Pais=Chile, Razon social=Visita, Nombre=Mauro, Direccion=Molino, Localidad=Trujillo, Departamento=La Libertad, Domicilio de entrega=Molino 124, Descuento=50, Mail factura=mau_ro@nttdata.com, Proveedor=NO, Cliente=SI}" width="1920"/>
+                <img src="24db3f1029bb5a0fa8cd0768a6aed9964d99e5d538023f7e0110842c33d8fdc6.png" title=" Entonces Validamos que se ha realizado el proceso correctamente (completed): <span class='success-color'>SUCCESS</span>" width="1920"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.54</span>
+</div>
+</body>
+</html>
